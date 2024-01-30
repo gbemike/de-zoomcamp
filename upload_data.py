@@ -36,7 +36,7 @@ def main(params):
         try:
             start = time()
 
-            df_iter = next(df)
+            df = next(df_iter)
 
             df.to_sql(name=table_name, con=engine, if_exists='append')
 
@@ -44,8 +44,10 @@ def main(params):
             
             print("running upload_data.py")
             print(f"chunk inserted at {end-start} seconds")
+            
         except StopIteration:
             print("All chunks processed")
+            break
 
 if __name__ == "__main__":
 
