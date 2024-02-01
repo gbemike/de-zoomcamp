@@ -1,6 +1,4 @@
-# de-zoomcamp
-
-Module: Dockerized PostgreSQL Database with Data Ingestion
+# Dockerized PostgreSQL Database with Data Ingestion
 
 This module sets up a Dockerized PostgreSQL database along with scripts for ingesting and uploading data into a postgres database.
 
