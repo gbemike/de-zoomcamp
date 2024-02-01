@@ -6,8 +6,8 @@ This module sets up a Dockerized PostgreSQL database along with scripts for inge
 
 The docker-compose.yml file defines two services:
 
-    pgdatabase: PostgreSQL database service configured with PostgreSQL version 13.
-    pgadmin: pgAdmin web interface for managing the PostgreSQL database.
+- pgdatabase: PostgreSQL database service configured with PostgreSQL version 13.
+- pgadmin: pgAdmin web interface for managing the PostgreSQL database.
 
 The database service (pgdatabase) is exposed on port 5432, while the pgAdmin interface (pgadmin) is exposed on port 8080.
 
