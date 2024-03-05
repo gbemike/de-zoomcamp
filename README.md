@@ -33,7 +33,7 @@ The requirements.txt file lists the Python dependencies required for the scripts
 
 - Ensure Docker and Docker Compose are installed on your system.
 
-- Run docker-compose up in the directory containing the docker-compose.yml file to start the PostgreSQL database and pgAdmin services, once the services are up and running, you can access pgAdmin at http://localhost:8080 in your web browser
+- Run `docker-compose` up in the directory containing the docker-compose.yml file to start the PostgreSQL database and pgAdmin services, once the services are up and running, you can access pgAdmin at http://localhost:8080 in your web browser
 
 - Ensure that the Dockerfile and other necessary files are in the same directory where the commands are executed. To build the docker image we run the following command:
     - `docker build -t name:tag .`
